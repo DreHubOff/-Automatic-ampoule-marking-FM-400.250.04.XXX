@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="лекхим этикетка_V15.1" typeText="Тип" messageText="Сообщение" timeText="Время">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.03.2020 13:05:06">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Модернизация запущена" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:08" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.03.2020 13:05:11">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:11" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.03.2020 13:05:12">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:12" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:23" Debug="false">
+    <Text>HmiConvert: Started conversion section.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:23" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Device.DeviceManagers.Scan:Siemens.Simatic.Hmi.Utah.Device.Upgrade.DeviceConverter.ConvertHmiDeviceToV15_1&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:23" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Device.DeviceManagers.Scan:Siemens.Simatic.Hmi.Utah.Device.Upgrade.DeviceConverter.ConvertHmiDeviceToV15_1&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:23" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.CommentCategoryRepairer.RepairCommentCategoryLinks&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:23" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.CommentCategoryRepairer.RepairCommentCategoryLinks&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:23" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RepairPointsCollectionOfScreenItems&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RepairPointsCollectionOfScreenItems&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RemoveInvisibleSoftkeysConverter&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RemoveInvisibleSoftkeysConverter&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RemoveDuplicateSoftKeysConverter&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.PhaseConverter.RemoveDuplicateSoftKeysConverter&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.BL.Scripting.Scan:Siemens.Simatic.Hmi.BL.Scripting.Migrations.ModuleConverter.ModuleRepair&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.BL.Scripting.Scan:Siemens.Simatic.Hmi.BL.Scripting.Migrations.ModuleConverter.ModuleRepair&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Recipe.Managers.Scan:Siemens.Simatic.Hmi.Utah.Recipe.RecipeConverter.ConvertRecipe&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Recipe.Managers.Scan:Siemens.Simatic.Hmi.Utah.Recipe.RecipeConverter.ConvertRecipe&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.AddToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.AddToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.RepairToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.Controls.Managers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.Controls.ProDiagPhaseConverter.RepairToolbarButtons&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.BL.ModernUI:Siemens.Simatic.Hmi.BL.ModernUI.Convert.ScreenItemPhaseConverter.AdaptModel&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.BL.ModernUI:Siemens.Simatic.Hmi.BL.ModernUI.Convert.ScreenItemPhaseConverter.AdaptModel&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:24" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Styles.Managers.Scan:Siemens.Simatic.Hmi.Utah.Styles.HmiStyleConverter.ConvertHmiStyleFromV15ToV151&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Styles.Managers.Scan:Siemens.Simatic.Hmi.Utah.Styles.HmiStyleConverter.ConvertHmiStyleFromV15ToV151&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.ImageConvert.RepairCrossEnvironmentLinks&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.ImageConvert.RepairCrossEnvironmentLinks&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Logging.Managers.Scan:Siemens.Simatic.Hmi.Utah.Logging.LoggingTagConverter.RemoveInvalidTRefs&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Logging.Managers.Scan:Siemens.Simatic.Hmi.Utah.Logging.LoggingTagConverter.RemoveInvalidTRefs&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverter.RepairGroupBoundsTables&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverter.RepairGroupBoundsTables&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.ChainedListConverter.ConvertFixScreenChainedList&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.GraphX.GraphXManagers.Scan:Siemens.Simatic.Hmi.Utah.GraphX.ChainedListConverter.ConvertFixScreenChainedList&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:25" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.TextRepairForConvert.TextsRepairInHmiBusinessLogicLevel&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:26" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.TextRepairForConvert.TextsRepairInHmiBusinessLogicLevel&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:26" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.FontConvert.RepairCrossEnvironmentLinksViaHmiBl&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:26" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Globalization.Managers.Scan:Siemens.Simatic.Hmi.Utah.Globalization.FontConvert.RepairCrossEnvironmentLinksViaHmiBl&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:26" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverterWithHmiBl.DeleteOrphanInterfaceConnections&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:26" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverterWithHmiBl.DeleteOrphanInterfaceConnections&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverterWithHmiBl.RepairInstanceKeyCache&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverterWithHmiBl.RepairInstanceKeyCache&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverterWithHmiBl.RepairInstanceHotKeys&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.ScreenModules.Managers.Scan:Siemens.Simatic.Hmi.Utah.Modules.ScreenModules.PhaseConverterWithHmiBl.RepairInstanceHotKeys&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.BL.ModernUI:Siemens.Simatic.Hmi.BL.ModernUI.Convert.ScreenItemPhaseConverter.ConvertDataSource&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.BL.ModernUI:Siemens.Simatic.Hmi.BL.ModernUI.Convert.ScreenItemPhaseConverter.ConvertDataSource&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:27" Debug="false">
+    <Text>HmiConvert is waiting for external dependency: Siemens.Simatic.Lang.SPLConvert</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:36" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_Power[FB1107]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:36" Debug="false">
+    <Text>Not invalidating fingerprints for protected object: MC_MoveJog[FB1103]</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:39" Debug="false">
+    <Text>HmiConvert: Started conversion section.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:39" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Tag.Managers.Scan:Siemens.Simatic.Hmi.Utah.Tag.RootTagConvertSynchronization.ResynchronizeRootTag&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:40" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Tag.Managers.Scan:Siemens.Simatic.Hmi.Utah.Tag.RootTagConvertSynchronization.ResynchronizeRootTag&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:40" Debug="false">
+    <Text>HmiConvert: Starting conversion step &lt;Siemens.Simatic.Hmi.Alarm.Managers.Scan:Siemens.Simatic.Hmi.Utah.Alarm.AlarmDataConverterWithHmiBl.ConvertIntegratedAlarmClasses&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:40" Debug="false">
+    <Text>HmiConvert: Finished conversion step &lt;Siemens.Simatic.Hmi.Alarm.Managers.Scan:Siemens.Simatic.Hmi.Utah.Alarm.AlarmDataConverterWithHmiBl.ConvertIntegratedAlarmClasses&gt;.</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:40" Debug="false">
+    <Text>HmiConvert: Finished conversion section.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.03.2020 13:05:41">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Информация о перекрестных ссылках конвертируется." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.03.2020 13:05:42">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Информация о перекрестных ссылках была успешно создана." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="14.03.2020 13:05:43">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Конверсия перекрестных ссылок закончена." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:43" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Sivarc.V15' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:43" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7BSW.V15.0.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:43" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Hmi.Professional:14.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:43" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:15.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:43" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Hmi.Advanced:14.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="14.03.2020 13:05:43" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Hmi.Comfort:14.00.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="14.03.2020 13:05:44">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Проект 'E:\lechim\лекхим этикетка\System\PEData.plf' успешно модернизирован и сохранен как проект 'E:\lechim\лекхим этикетка_V15.1\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>
